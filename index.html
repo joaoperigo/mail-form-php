@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PW15</title>
+    <style>
+        body {
+            background-color: #f4f4f4;
+        }
+        form {
+            width: 600px;
+            margin: 50px auto;
+        }
+        input, textarea {
+            width: 100%;
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <form action="mail.php" method="post">
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" maxlength="40">
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" maxlength="40">
+        <label for="txtArea">Message</label>
+        <textarea name="message" id="txtArea" cols="30" rows="10" maxlength="100"></textarea>
+        <button>enviar</button>
+    </form>
+</body>
+</html>
